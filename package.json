@@ -1,0 +1,11 @@
+{
+  "name": "BE-users-and-posts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lowdb": "^2.1.0"
+  }
+}

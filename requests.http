@@ -1,0 +1,26 @@
+GET http://localhost:3012/posts
+
+###
+
+DELETE http://localhost:3012/posts/5610612881721
+
+### 
+
+PUT http://localhost:3012/posts/6938841965853
+Content-Type: application/json
+
+{
+    "content": "First one - but updated!!!",
+    "title": "First",
+    "updated": true
+}
+
+###
+
+POST http://localhost:3012/posts
+Content-Type: application/json
+
+{
+    "content": "Hello this is a test 3"
+}
+
